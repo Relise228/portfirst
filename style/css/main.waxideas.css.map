@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "",
+    "sources": [
+        "../../src/scss/main.waxideas.scss"
+    ],
+    "names": [],
+    "file": "main.waxideas.css"
+}

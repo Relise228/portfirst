@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="dist/style.css" />
+    <title>Waxom</title>
+  </head>
+  <body>
+    <header class="header">
+      <div class="wrapper">
+        <div class="header__menu">
+          <div class="header__logo">
+            <img src="./src/images/logo.png" alt="Logo" />
+            <p>Waxom</p>
+          </div>
+          <nav class="header__nav">
+            <a href="" class="header__nav-item">Home</a>
+            <a href="#" class="header__nav-item">About Us</a>
+            <a href="#" class="header__nav-item">Portfolio</a>
+            <a href="#" class="header__nav-item">Features</a>
+            <a href="#" class="header__nav-item">Blog</a>
+            <a href="#" class="header__nav-item">Pricing</a>
+            <a href="#" class="header__nav-item">Shortcodes</a>
+            <a href="#" class="header__nav-item">Contact</a>
+            <a href="#" class="header__nav-item">#</a>
+            <a href="#" class="header__nav-item">#</a>
+          </nav>
+        </div>
+        <div class="header__slider">
+          <div class="header__title">
+            Unique and Modern Design
+            <p>Portfolio PSD Template</p>
+          </div>
+          <div class="header__subtitle">
+            Nam liber tempor cum soluta nobis eleifend option congue nihil
+            imper-<br />diet doming id quod mazim placerat facer possim assum.
+          </div>
+          <button class="header__btn-start">Get started</button>
+        </div>
+      </div>
+    </header>
+
+    <main class="main">
+      <div class="wrapper">
+        <section class="services">
+        <div class="services__item">
+          <div class="services__header">
+            <img src="src/images/draw-icon.png" alt="Draw" />
+            <h4 class="services__title">Web & App Design</h4>
+          </div>
+          <div class="services__description">
+            <p class="services__desc">
+              Nam liber tempor cum soluta nobis eleifend option congue nihil
+              imperdiet doming id quod mazim.
+            </p>
+          </div>
+        </div>
+        <div class="services__item">
+          <div class="services__header">
+            <img src="src/images/plate-icon.png" alt="Plate" />
+            <h4 class="services__title">Development</h4>
+          </div>
+          <div class="services__description">
+            <p class="services__desc">
+              Lorem ipsum dolor sit amet, adipiscing elit, sed diam nonummy nibh
+              euismod tincidunt ut laoreet.
+            </p>
+          </div>
+        </div>
+        <div class="services__item">
+          <div class="services__header">
+            <img src="src/images/wheel-icon.png" alt="Wheel" />
+            <h4 class="services__title">Customization</h4>
+          </div>
+          <div class="services__description">
+            <p class="services__desc">
+              Nam liber tempor cum soluta nobis eleifend option congue nihil
+              imperdiet doming id quod mazim.
+            </p>
+          </div>
+        </div>
+        <div class="services__item">
+          <div class="services__header">
+            <img src="src/images/port-icon.png" alt="Portfolio" />
+            <h4 class="services__title">Marketing</h4>
+          </div>
+          <div class="services__description">
+            <p class="services__desc">
+              Nam liber tempor cum soluta nobis eleifend option congue nihil
+              imperdiet doming id quod mazim.
+            </p>
+          </div>
+        </div>
+      </div>
+
+      </section>
+    </main>
+    <footer class="footer"></footer>
+    <script type="text/javascript" src="dist/bundle.js"></script>
+    <script>
+    function Timer (date) {
+    var s = (new Date(date)).getTime() - (new Date()).getTime();
+    s = parseInt(s / 1000);
+
+    var h = parseInt(s / 3600);
+    s -= h * 3600;
+    var m = parseInt(s / 60);
+    s -= m * 60;
+
+    console.log(h + ':' + m + ':' + s);
+
+    if ((new Date(date)).getTime() >= (new Date()).getTime()) setTimeout('Timer(\'' + date + '\');', 1000);
+}
+
+Timer('Novenber 15, 2019');</script>
+  </body>
+</html>

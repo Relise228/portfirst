@@ -1,0 +1,18 @@
+{
+    "version": 3,
+    "mappings": "AAUA,AAAA,KAAK,CAAC;EACJ,QAAQ,EAAE,QAAQ;CACnB",
+    "sources": [
+        "../../src/scss/main.scss",
+        "../../src/scss/main.services.scss",
+        "../../src/scss/main.waxideas.scss",
+        "../../src/scss/main.textboxes.scss",
+        "../../src/scss/main.projects.scss",
+        "../../src/scss/main.video.scss",
+        "../../src/scss/main.devices.scss",
+        "../../src/scss/main.counters.scss",
+        "../../src/scss/main.posts.scss",
+        "../../src/scss/main.partners.scss"
+    ],
+    "names": [],
+    "file": "main.css"
+}
